@@ -1,24 +1,14 @@
-<!-- 	Template Authors: Stefan Lang, Eva Missoni - PLUS 
-		Template Creation Date: March-June 2020 
-		
-		IMPORTANT NOTICES FOR USERS/AUTHORS: 
-		SECTIONS TO BE EDITED BY AUTHORS ARE INDICATED AS FOLLOWS:  <!-- AUTHORS: DEFINE ... --> 
-<!--	THE COMMANDS <section> and </section>  EMBRACE THE CONTENT FOR EACH SINGLE SLIDE.
-		ALTERNATIVELY, YOU CAN USE MARKDOWN NOTATION TO CREATE YOUR SLIDES. More information: https://github.com/webpro/reveal-md 
-		-->
-		
-		
 <!doctype html>
 <html prefix="eo4geo: http://bok.eo4geo.eu/" prefix="dc: http://purl.org/dc/terms/" lang="en" >
 
 	<head>
 		<meta charset="utf-8">
 		 
-		<title>eo4geo template for Reveal JS</title>
+		<title>Observando desde el espacio: agricultura y medio ambiente [Observing from space: agriculture and environment]</title>
 		
-		<span property="dc:title"> </span>
-		<span property="dc:creator"> </span>
-		<span property="dc:subject"> </span>
+		<meta property="dc:title" content="Observando desde el espacio: agricultura y medio ambiente"/>
+		<meta property="dc:creator" content="Carlos Granell"/>
+		<meta property="dc:subject" content="Earh Observation, EO, Agriculture, Remote Sensing"/>
 		<span property="dc:abstract"> </span>
 		<span property="dc:tableOfContents"> </span>
 		<span property="dc:desription"> </span>
@@ -35,11 +25,13 @@
 		<span property="dc:license">CC BY-SA 4.0</span>
 		
 		<meta property="dc:relation" content="eo4geo:" />
+		
+		
 		<link rel="stylesheet" href="internal_restricted/v1.0/css/reveal.css">
 		<!-- CHOOSE BETWEEN 2 EO4GEO TEMPLATE THEMES:-->
 		<link rel="stylesheet" href="internal_restricted/v1.0/css/theme/eo4geo.css" id="theme"> <!-- white background design --> 
 		<link rel="stylesheet" href="internal_restricted/v1.0/plugin/markdown/css/theme/simplemenu.css">
-		<link rel="stylesheet" href="internal_restricted/v1.0/css/theme/eo4geo_grey.css" id="theme">  <!-- anthrazit background design --> 
+		<!--<link rel="stylesheet" href="internal_restricted/v1.0/css/theme/eo4geo_grey.css" id="theme">-->  <!-- anthrazit background design --> 
 		<!-- EO4GEO FONT ROBOTO SLAB -->
 		<link href='https://fonts.googleapis.com/css?family=Roboto Slab' rel='stylesheet'> 
 		<link rel="stylesheet" href="partnerLogo.css" id="theme"> 
@@ -47,6 +39,32 @@
 
     <base target="_blank"> <!-- All links in the presentation are opened in a seperate tab"-->
  
+ 
+    <style>
+      
+      #left {
+        margin: 10px 0 15px 20px;
+        text-align: center;
+        float: left;
+        z-index:-10;
+        width:48%;
+        font-size: 0.85em;
+        line-height: 1.5;
+      }
+      
+      #right {
+        margin: 10px 0 15px 0;
+        float: right;
+        text-align: center;
+        z-index:-10;
+        width:48%;
+        font-size: 0.85em;
+        line-height: 1.5;
+      }
+      
+      
+    </style>
+    
 	</head>
 
 	<body>
@@ -58,45 +76,18 @@
 					
 				 <div class = "eo4geologo" style="width: 11%;height : 11%" ></div>	
 			
-				 <div class = "partnerlogo" style="width: 15%;height : 11%" ></div>		
-				 <div  class = "presentation_title" style=" text-align: center " >What is Copernicus?</div>	<!--The title of the presentation appears on each slide-->
+				 <div class = "partnerlogo" style="width: 15%;height : 5%" ></div>		
 				 
-
-			<!-- AUTHORS: DEFINE METADATA FOR WHOLE SLIDESET HERE: (Dublin Core Metadata format, complemented by BoK-Concepts) >
-				@prefix dc: <http://purl.org/dc/terms/>.
-				@prefix eo4geo: <http://bok.eo4geo.eu/>.
-				<>  	dc:title "What is Copernicus?";
-					dc:creator "Stefan Lang, University of Salzburg";
-					dc:subject "Copernicus, EO4GEO, WP5, Satellite, Earth Observation";
-					dc:abstract "This is a template slideset for EO4GEO Partners to familiarize with EO4GEO, introducing the idea of Copernicus and its services. Nevertheless, content-generation is not the prime concern of the template. ";
-					dc:tableOfContents "(1) What is EO?; (2) Benefits of Copernicus; (3) Integration of Jupyter Notebooks; 
-						(4) Integration of Youtube Video; (5) Integration of H5P; (6) Copernicus Services; (7) Reference list;";
-					dc:description "Learning outcomes: Understand the Copernicus ecosystem and services; perform simple analysis with Jupyter Notebook; Understand Copernicus Climate Change Service;";
-					dc:contributor "Eva Missoni, Barbara Hofer";
-					dc:created "2020-06-20";
-					dc:type "InteractiveResource";
-					dc:format "html";
-					dc:language "EN"; 
-					dc:SizeOrDuration "45min"
-					dc:audience "students";
-					dc:educationLevel "EQF 6";
-					dc:source "Existing youtube-video on Copernicus Climate Change Service; existing Jupyter Notebook on "Well switching in Bangladesh"";
-					dc:rightsHolder "Stefan Lang, University of Salzburg";
-					dc:license "CC BY-SA 4.0";
-					dc:relation eo4geo:TA7-5-1;
-					dc:relation eo4geo:TA7-5-2;
-					dc:relation eo4geo:GS3 .	
-								-->
-
+				 <div  class = "presentation_title" style="text-align: center" >Observando desde el espacio: agricultura y medio ambiente</div>	<!--The title of the presentation appears on each slide-->
+				 
 
 				<div class="slides">
 				
 			
 				<!-- AUTHORS: DEFINE CONTENT ON YOUR FIRST SLIDE --> 
 				<section >
-					<h1>What is Copernicus?</h1>
-					(A demo slide deck using the <em>Reveal.js</em> framework)
-				<!-- AUTHORS: PUT YOUR PRESENTER NOTES HERE: -->
+					<h1>Observando desde el espacio: agricultura y medio ambiente</h1>
+	
 				<aside class="notes">
 					Oh hey, these are some notes. They'll be hidden in your presentation, but you can see them if you open the speaker notes window (hit »S« on your keyboard).
 				</aside>
@@ -104,48 +95,64 @@
 				
 				
 				<!-- AUTHORS: DEFINE CONTENT FOR YOUR SECOND SLIDE: --> 
-				<!--<section class="scrollable">
-					<h1>Copernicus</h1> 
-					<br>Copernicus and Galileo are the two flagships of the <em>European Space Policy</em>. Galileo denotes the European satellite navigation system, while Copernicus is the name of the European Earth observation <a href="https://www.copernicus.eu">programme</a>
-					<br><img width="600" height="300" data-src="resources\template_WhatCopernicus\CopMountain.jpg" alt="Copernicus allegory">
-				</section>
+				<section class="scrollable">
+					<h1>Contenido</h1> 
 				
-					<!-- AUTHORS: DEFINE CONTENT FOR YOUR SECOND SLIDE: --> 
-				<!--<section >
-					<h1>Copernicus</h1> 
-					<br>
-					 
-					<br><img  style="width: 100%; max-width: 600px; max-height:600px; height:100%" data-src="resources\2560pxAERONET.jpg" alt="Copernicus allegory">
-					 
-				</section>
-				
-				<!-- AUTHORS: Same content as above - now as example in Markdown language   --> <!-- AUTHORS: for horizontally organised slides, use three dashes ---, for vertical slides two dashes -- -->
-				<!--section data-markdown data-separator="---" data-separator-vertical="--" data-separator-notes="^Note:"> 
-				                    <script type="text/template">
-                        # What is Copernicus?
-                        (A demo slide deck using the Reveal.js framework)
+					<ul>
+						<li style="color:#337acc;">Contexto</li>
+						<li style="color:#337acc;">Intro Remote sensing</li>
+						<li style="color:#337acc;">TO BE DEFINED</li>
+				  </ul>
 					
-						
-                        ---
-						
-                        # Copernicus
-                        Copernicus and Galileo are the two flagships of the European Space Policy. Galileo denotes the European satellite navigation system, while Copernicus is the name of the <a href="https://www.copernicus.eu">European Earth observation programme</a>
-						<img width="600" height="300" data-src="resources\template_WhatCopernicus\CopMountain.jpg" alt="Copernicus allegory">
-						
-						
-						--
-						
-						# Earth observation (EO)
-						EO is one out of three main space assets
-						- SatNav
-                        - SatCom
-						- SatObs (EO)
-						
-						<img width="600" height="250" data-src="resources\template_WhatCopernicus\3SpaceComponents.png" alt="3SpaceComponents">	
-                    </script>
-                </section-->
+				</section>
 				
-			
+				
+				<!-- Slides in Markdown language for item #1: Introduction to the Eo4GEO project -->
+				<!-- AUTHORS: for horizontally organised slides, use three dashes, for vertical slides two dashes -->
+				<section data-markdown data-separator="---" data-separator-vertical="--" data-separator-notes="^Note:"> 
+				    <script type="text/template">
+        ## Context
+  
+        <div id="left">
+          <img data-src="http://eo4geo.sbg.ac.at/GISIG/logo_big.png" width="70%"/>
+        </div>
+
+        <div id="right">
+          <img data-src="resources/figs/copernicus-logo.png" width="70%"/>
+        </div>
+
+
+        --
+
+        
+        ## The Space/Geospatial Sector Skills Alliance
+        
+        Estrategia innovadora para el desarrollo de __habilidades__ y __capacitación__ en el sector de la información espacial
+
+        - Aumentar el número de __personas__ que utilizan los datos y la información de Copernicus.
+
+        - Aumentar la oferta de __habilidades__ estimular el crecimiento de __empleos__ relacionados con lo geoespacial en Europa.
+
+        
+				
+	          </script>
+        </section>
+        
+        
+        
+        
+        <section class="scrollable">
+					<h1>Contenido</h1> 
+					
+					<ul>
+						<li style="color:#89b3e479;">Contexto</li>
+						<li style="color:#89b3e479;">Intro Remote sensing</li>
+						<li style="color:#337acc;">TO BE DEFINED</li>
+				  </ul>
+				</section>
+				
+				
+			<!--
 				
 				<!-- AUTHORS: DEFINE SECTIONS WITHIN A SECTION TO GET VERTICAL SLIDES:--> 
 				<section id="EO">
